@@ -1,0 +1,10 @@
+a{
+    text-decoration: none !important;
+    color: black !important;
+}
+.btn_menu p{
+     margin-bottom: 0;
+ }
+.high_mass{
+    gap: 10px;
+}

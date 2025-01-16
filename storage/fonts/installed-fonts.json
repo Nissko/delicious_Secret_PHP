@@ -1,0 +1,23 @@
+{
+    "mojito web": {
+        "normal": "mojito_web_normal_a943869ddaa31cff3d5cbddfaa109197"
+    },
+    "geometria": {
+        "normal": "D:\\Programm\\OpenServer\\domains\\square-pc\\storage\\fonts\/geometria_normal_8b08d792cb8d4f2e9b9e083cf483deb6",
+        "italic": "D:\\Programm\\OpenServer\\domains\\square-pc\\storage\\fonts\/geometria_italic_656928f0338b38b1f8e2075707696ec5",
+        "800_italic": "D:\\Programm\\OpenServer\\domains\\square-pc\\storage\\fonts\/geometria_800_italic_62ba8b080f825aa6bb20cf331cd978d5",
+        "200_italic": "D:\\Programm\\OpenServer\\domains\\square-pc\\storage\\fonts\/geometria_200_italic_3d672ac4b42a88654b2f660db50d3a59",
+        "500": "D:\\Programm\\OpenServer\\domains\\square-pc\\storage\\fonts\/geometria_500_f8e93283344196861cd1360fcbe83b22",
+        "300": "D:\\Programm\\OpenServer\\domains\\square-pc\\storage\\fonts\/geometria_300_ac0b2c0d9436fb2a22a9816d077f7ea1",
+        "900_italic": "D:\\Programm\\OpenServer\\domains\\square-pc\\storage\\fonts\/geometria_900_italic_0092184ced0447b469ba8cfbdc42ef3b",
+        "bold_italic": "D:\\Programm\\OpenServer\\domains\\square-pc\\storage\\fonts\/geometria_bold_italic_d09bf7a0920a81a726c57c1724dc22df",
+        "bold": "D:\\Programm\\OpenServer\\domains\\square-pc\\storage\\fonts\/geometria_bold_5720bc9423b54450184bfa7f49928090",
+        "300_italic": "D:\\Programm\\OpenServer\\domains\\square-pc\\storage\\fonts\/geometria_300_italic_a6876e915c393b4ef54d31e070bbfc72",
+        "800": "D:\\Programm\\OpenServer\\domains\\square-pc\\storage\\fonts\/geometria_800_52d54306aba7a45e5a0f960a6ca67661",
+        "500_italic": "D:\\Programm\\OpenServer\\domains\\square-pc\\storage\\fonts\/geometria_500_italic_0383340903f5aa54675701f99d846de5",
+        "200": "D:\\Programm\\OpenServer\\domains\\square-pc\\storage\\fonts\/geometria_200_cee6ad9e68614cf586a5621e9909501e",
+        "900": "D:\\Programm\\OpenServer\\domains\\square-pc\\storage\\fonts\/geometria_900_b7f7a7a222b8fe9d1a485038e1ec3fef",
+        "100_italic": "geometria_100_italic_77d85ee48042a2f4eea3efc6ef2caff2",
+        "100": "D:\\Programm\\OpenServer\\domains\\square-pc\\storage\\fonts\/geometria_100_83264357b333130027ade3059d2e54bb"
+    }
+}

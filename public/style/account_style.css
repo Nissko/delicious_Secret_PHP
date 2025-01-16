@@ -1,0 +1,202 @@
+a{
+    text-decoration: none !important;
+    color: black !important;
+}
+.main_account{
+    padding: 50px 100px;
+}
+.account_div_background{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 30px 30px;
+}
+.account_left_menu, .account_right_menu{
+    width: 100%;
+}
+.account_left_menu{
+    border-right: 1px solid lightgray;
+}
+.account_right_menu{
+    padding: 0 20px;
+}
+.btn_menu p{
+    margin-bottom: 0;
+}
+
+/*Стили левого меню*/
+.account_img_user{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    user-select: none;
+}
+.account-page-avatar_photo{
+    border-radius: 100px;
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+}
+.account_info_user{
+    cursor: default;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    padding-bottom: 10px;
+}
+.account_user_program, .account_user_add_recipe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0;
+}
+.account_user_program button, .account_user_add_recipe button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5px;
+    width: 250px;
+    background-color: whitesmoke;
+    border: 1px solid gray;
+    border-radius: 3px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+.account_user_program button:hover, .account_user_add_recipe button:hover{
+    background-color: #dadada;
+}
+.account_functional_buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 10px;
+    margin: 10px 0;
+}
+.account_functional_buttons button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5px;
+    width: 250px;
+    background-color: whitesmoke;
+    border: 1px solid gray;
+    border-radius: 3px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+.account_functional_buttons button:hover{
+    background-color: #dadada;
+}
+
+/* Стили правого меню */
+.account-page-right_menu-title_blocks{
+    display: inline-block;
+    font-family: 'Oswald';
+    font-weight: 300;
+    font-size: 20px;
+    padding-bottom: 20px;
+    user-select: none;
+    cursor: default;
+}
+
+/* Изменение фото */
+.account-file {
+    position: relative;
+    display: inline-block;
+}
+.account-file-btn {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+    vertical-align: middle;
+    color: rgb(255 255 255);
+    text-align: center;
+    border-radius: 4px;
+    background-color: #419152;
+    line-height: 22px;
+    height: 40px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border: none;
+    margin: 0;
+    transition: background-color 0.2s;
+    font-family: 'Oswald';
+    font-weight: 300;
+    font-size: 16px;
+    padding-bottom: 32px;
+    width: 150px;
+}
+.account-file-text {
+    padding: 0 10px;
+    line-height: 40px;
+    display: inline-block;
+    font-family: 'Oswald';
+}
+.account-file input[type=file] {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+    display: block;
+    width: 0;
+    height: 0;
+}
+.account-btn{
+    width: 139px;
+}
+
+/* Focus */
+.account-file input[type=file]:focus + .account-file-btn {
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
+
+/* Hover/active */
+.account-file:hover .account-file-btn {
+    background-color: #59be6e;
+}
+.account-file:active .account-file-btn {
+    background-color: #2E703A;
+}
+
+/* Disabled */
+.account-file input[type=file]:disabled + .account-file-btn {
+    background-color: #eee;
+}
+
+.account-file-btn-sub {
+    margin: 15px 0;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+    vertical-align: middle;
+    color: rgb(255 255 255);
+    text-align: center;
+    border-radius: 4px;
+    background-color: #0675f3;
+    line-height: 22px;
+    height: 40px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border: none;
+    transition: background-color 0.2s;
+    font-family: 'Oswald';
+    font-size: 16px;
+    font-weight: 300;
+    padding-bottom: 32px;
+    width: 150px;
+}
+
+.account-file-btn-sub:hover {
+    background-color: #1c8dde;
+}
+/* */

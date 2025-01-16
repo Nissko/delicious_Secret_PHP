@@ -1,0 +1,80 @@
+a{
+    text-decoration: none !important;
+    color: black !important;
+}
+.btn_menu p{
+    margin-bottom: 0;
+}
+.message_no_auth{
+    padding: 50px 0;
+}
+a{
+    text-decoration: none !important;
+    color: black !important;
+}
+p{
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+}
+body{
+    background-color: whitesmoke !important;
+}
+.filter-recipe{
+    display: none;
+    padding: 20px 0;
+    gap: 30px;
+}
+.filter-recipe-style{
+    padding: 10px 0;
+    gap: 30px;
+}
+.filter-recipe-div{
+    gap: 10px;
+}
+.rating-result {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+.rating-result span {
+    padding: 0;
+    font-size: 32px;
+    margin: 0 3px;
+    line-height: 1;
+    color: lightgrey;
+    text-shadow: 1px 1px #bbb;
+}
+.rating-result > span:before {
+    content: '★';
+}
+.rating-result > span.active {
+    color: gold;
+    text-shadow: 1px 1px #c60;
+}
+.count_rate_users{
+    display: flex;
+    align-items: center;
+    padding-top: 5px;
+    margin: 0 5px;
+    user-select: none;
+    pointer-events: none;
+}
+.favotite_recipe_block{
+    background-color: #efedbb;
+    padding: 10px;
+    border-radius: 50px;
+    margin: 5px 5px;
+    filter: brightness(95%);
+    z-index: 5;
+    cursor: pointer;
+}
+.favotite_recipe_block svg{
+    color: forestgreen;
+    z-index: 6;
+}
+.favotite_recipe_block button{
+    background: transparent;
+    border: 0;
+    padding: 0;
+    margin: 0;
+}

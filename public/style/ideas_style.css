@@ -1,0 +1,139 @@
+a{
+    text-decoration: none !important;
+    color: black !important;
+}
+.btn_menu p{
+    margin-bottom: 0;
+}
+
+.bg_main{
+    overflow: hidden;
+    max-width: 100%;
+}
+.bg_img_block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background: url(../img/ideas_bg.jpeg) no-repeat;
+    background-size: cover;
+    z-index: 1;
+    background-attachment: fixed;
+}
+.bg_img_block:before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, .55);
+}
+.heading_bg-block{
+    z-index: 2;
+}
+.heading_bg{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 34px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 2px solid whitesmoke;
+}
+.heading_bg_title{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.main-content_idea{
+    padding-top: 250px;
+}
+
+.bg_img_content-title{
+    color: whitesmoke;
+    font-size: 40px;
+    filter: drop-shadow(2px 4px 6px black);
+    text-transform: uppercase;
+    user-select: none;
+}
+
+.text_idea{
+    text-align: justify;
+    font-size: 20px;
+    line-height: 35px;
+    text-indent: 50px;
+}
+
+.bg_img_content-1{
+    width: 100%;
+    min-height: 500px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(../img/ideas/five_peppers.jpg) no-repeat;
+    background-size: cover;
+    z-index: 1;
+    background-attachment: fixed;
+}
+
+.bg_img_content-2{
+    width: 100%;
+    min-height: 500px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(../img/ideas/temian.jpg) no-repeat;
+    background-size: cover;
+    z-index: 1;
+    background-attachment: fixed;
+}
+
+.bg_img_content-3{
+    width: 100%;
+    min-height: 500px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(../img/ideas/rozmarin.jpg) no-repeat;
+    background-size: cover;
+    z-index: 1;
+    background-attachment: fixed;
+}
+
+.bg_img_content-4{
+    width: 100%;
+    min-height: 500px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(../img/ideas/koriandr.jpg) no-repeat;
+    background-size: cover;
+    z-index: 1;
+    background-attachment: fixed;
+}
+
+.bg_img_content-5{
+    width: 100%;
+    min-height: 500px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(../img/ideas/korica.jpg) no-repeat;
+    background-size: cover;
+    z-index: 1;
+    background-attachment: fixed;
+}
